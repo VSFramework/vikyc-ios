@@ -1,0 +1,11 @@
+framework module VikycSDK {
+  umbrella header "VikycSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module VikycSDK.Swift {
+  header "VikycSDK-Swift.h"
+  requires objc
+}

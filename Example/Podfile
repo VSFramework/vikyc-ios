@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'VikycSDK_Example' do
+  pod 'VikycSDK', :path => '../'
+
+  target 'VikycSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

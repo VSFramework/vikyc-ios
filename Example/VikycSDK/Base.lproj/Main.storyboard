@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="VikycSDK_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbR-uJ-H2z">
+                                <rect key="frame" x="93.5" y="311.5" width="188" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.99762004613876343" blue="0.7529030442237854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Kmz-9t-nIn"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="VisionSDK Full Future"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onActionOpenFull:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hNQ-td-7cR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZN-ku-GIA">
+                                <rect key="frame" x="96" y="367.5" width="183" height="44"/>
+                                <color key="backgroundColor" red="0.019881557673215866" green="0.96688097715377808" blue="0.94190520048141479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="m6C-yN-Fwb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="VisionSDK With OCR"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onActionWithOCR:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="M4M-xu-FEo"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024" translatesAutoresizingMaskIntoConstraints="NO" id="KbQ-JP-Hj0">
+                                <rect key="frame" x="112.5" y="145.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="L6y-Ex-jmR"/>
+                                    <constraint firstAttribute="width" secondItem="KbQ-JP-Hj0" secondAttribute="height" multiplier="1:1" id="tsG-pE-elj"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GbR-uJ-H2z" firstAttribute="top" secondItem="KbQ-JP-Hj0" secondAttribute="bottom" constant="16" id="44v-R6-6Kx"/>
+                            <constraint firstItem="lZN-ku-GIA" firstAttribute="top" secondItem="GbR-uJ-H2z" secondAttribute="bottom" constant="12" id="F3w-a4-8pS"/>
+                            <constraint firstItem="GbR-uJ-H2z" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="H3r-MZ-fM6"/>
+                            <constraint firstItem="GbR-uJ-H2z" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Jdm-Hp-zmW"/>
+                            <constraint firstItem="KbQ-JP-Hj0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="gmI-qo-GDT"/>
+                            <constraint firstItem="lZN-ku-GIA" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="jiz-0s-dXG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1024" width="1024" height="1024"/>
+    </resources>
+</document>
