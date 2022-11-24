@@ -2,8 +2,10 @@ use_frameworks!
 
 platform :ios, '12.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'VikycSDK_Example' do
-  pod 'VikycSDK', :path => '../'
+  pod 'VikycSDK'
 
   target 'VikycSDK_Tests' do
     inherit! :search_paths

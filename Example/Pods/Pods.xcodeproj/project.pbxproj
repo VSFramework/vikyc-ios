@@ -11,10 +11,10 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 95AE28C72C5041AD7AA61B04D5BBACE4 /* Build configuration list for PBXAggregateTarget "VikycSDK" */;
 			buildPhases = (
-				5F1622288281225755A5A80A7001C56B /* [CP] Copy XCFrameworks */,
+				51B2FBCF5C26AE875535FC4B39D71F7B /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				B533D103DDF55D6B7A12206F11A5D7C2 /* PBXTargetDependency */,
+				614DAA039198D8E0C7517EF4DA7049FD /* PBXTargetDependency */,
 			);
 			name = VikycSDK;
 		};
@@ -40,28 +40,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0839B83B7556BB2AEB4A92268E055484 /* PBXContainerItemProxy */ = {
+		46AD09674A4749E656B3457FD24C3994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		5C9622A1FC08AE0260840BB410E2A2B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6A565A01EF20458C86BBC589CA5716C7;
 			remoteInfo = VikycSDK;
 		};
-		182E4C83F9629C3770CE2C94737B0EB7 /* PBXContainerItemProxy */ = {
+		C6EE0379CFF41BE26BE491C28720EF41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
 			remoteInfo = "OpenSSL-Universal";
 		};
-		D32E33DA78F4BCA54EE61C18DCCDC19E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
-			remoteInfo = "OpenSSL-Universal";
-		};
-		DEE99140120819A74E713EB24CA2602E /* PBXContainerItemProxy */ = {
+		DA529B7D665FD0BF2CF3BA55F40C22A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -72,10 +72,8 @@
 
 /* Begin PBXFileReference section */
 		0AA3D34266F4DCEA2A0511F08EF0BDEB /* Pods-VikycSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VikycSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0D8048337172F431D2B321CEDE304A9C /* VikycSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = VikycSDK.xcframework; path = Frameworks/VikycSDK.xcframework; sourceTree = "<group>"; };
 		129857ED792F4CFA67C6599BDE29E6D2 /* Pods-VikycSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VikycSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		155A3C4E8E3C1819E15F97FD520B1513 /* VikycSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VikycSDK.release.xcconfig; sourceTree = "<group>"; };
-		1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
+		181681F0E254F64BC7080F4FE16FABFF /* VikycSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = VikycSDK.xcframework; path = Frameworks/VikycSDK.xcframework; sourceTree = "<group>"; };
 		2DB53F985D9CD60CA4F57AD2E6E678B1 /* Pods-VikycSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VikycSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FCAF2C2C0CFF346011E39C7204511F4 /* Pods-VikycSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VikycSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		30CF6A0D7E3A0CA82DEEBAF238557DC5 /* Pods-VikycSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VikycSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -83,25 +81,24 @@
 		3DA93F0897FBF9388796625667405C84 /* Pods-VikycSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VikycSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		42B5B336D3D26F6C73586630B6896703 /* Pods-VikycSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VikycSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		49A43B22478F9C59B3DD4D3C617511F3 /* Pods-VikycSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VikycSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		49AF076F51A7EE37A9D0A2B8F4D74921 /* VikycSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VikycSDK.debug.xcconfig; sourceTree = "<group>"; };
+		577221A110F98EBFA51311CCE15A7E21 /* VikycSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VikycSDK.release.xcconfig; sourceTree = "<group>"; };
 		607B7F58F2A24E1480143704934DEC3A /* Pods-VikycSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VikycSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		692822723041674CA660A9BD24D7DFB4 /* Pods-VikycSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VikycSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6C9BB2D3E0E235D3A3AF858CC5745F05 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CE94DFEBC71907CBC5B119BB76B4E06 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74B020F66C50CD02A86B1AB3E49C9087 /* Pods-VikycSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VikycSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		7704CAE72802D3000F5CEE72669FD87A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7726007396BC3F8D894A2123338D25A5 /* VikycSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VikycSDK.debug.xcconfig; sourceTree = "<group>"; };
 		80B183318BE02B4B6066225D074A4BCC /* Pods-VikycSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VikycSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		8637824246C1D9EC29AB6B0BC2D94818 /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
 		94EEA24D9F662A9494FC870B15B72F3A /* Pods-VikycSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VikycSDK_Tests"; path = Pods_VikycSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A00901BCB93A4430578C33A30A47A8DB /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
-		AADCA1D8F987E5153FA1ECE55D2B2351 /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
-		ABF664D6AE7E83280A130DB9212525D5 /* VikycSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VikycSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C693362E18804303310EB8A7469EB3BE /* VikycSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "VikycSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA00B1672D9F123228C99CCC4B99C84 /* VikycSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "VikycSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		D0D5BF704910406736F293EB4B41307C /* Pods-VikycSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VikycSDK_Example.modulemap"; sourceTree = "<group>"; };
 		DEEC925EE297331D50D468DFF958485A /* Pods-VikycSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VikycSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E4614289EB9F99D103AA5DA926BEAD79 /* Pods-VikycSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VikycSDK_Example"; path = Pods_VikycSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F047336B9580393215216B5301D08745 /* Pods-VikycSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VikycSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F0F008CB18F21F1E3FCD502F738227A5 /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
+		FA91AE3A80FE6EDB03FC1454ADA9E29D /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
 		FFAA6F4A521EE3232A58E61405DE62B0 /* Pods-VikycSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VikycSDK_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,25 +122,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		119C457A618581BDAE44A814FFF9D9AE /* Support Files */ = {
+		14F2A3C7452FB043AA65053AC1E42106 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C693362E18804303310EB8A7469EB3BE /* VikycSDK-xcframeworks.sh */,
-				7726007396BC3F8D894A2123338D25A5 /* VikycSDK.debug.xcconfig */,
-				155A3C4E8E3C1819E15F97FD520B1513 /* VikycSDK.release.xcconfig */,
+				F0F008CB18F21F1E3FCD502F738227A5 /* OpenSSL-Universal-xcframeworks.sh */,
+				6CE94DFEBC71907CBC5B119BB76B4E06 /* OpenSSL-Universal.debug.xcconfig */,
+				FA91AE3A80FE6EDB03FC1454ADA9E29D /* OpenSSL-Universal.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VikycSDK";
+			path = "../Target Support Files/OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
-		1D3A5BC550E5E6A2DE160B69F19274AF /* Pod */ = {
+		1CE7AE16CFF79D1A6479AFF148DC9A84 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C9BB2D3E0E235D3A3AF858CC5745F05 /* LICENSE */,
-				7704CAE72802D3000F5CEE72669FD87A /* README.md */,
-				ABF664D6AE7E83280A130DB9212525D5 /* VikycSDK.podspec */,
+				40FC833CA40DAB6B4D32CDA139B4EAAB /* OpenSSL-Universal */,
+				F27C49EE973509F7A91B79923D5EFF70 /* VikycSDK */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		2273ABA2F1FCCFEC8FF779DD5442B449 /* Targets Support Files */ = {
@@ -155,23 +151,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2D8C8302E198D06CDF276F3269E7D929 /* Frameworks */ = {
+		2F1E5B8844B1D5CB13C6B55BFAE9D258 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AADCA1D8F987E5153FA1ECE55D2B2351 /* OpenSSL.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		316A4EE1495B6DA8B1957F93D95A92A7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A00901BCB93A4430578C33A30A47A8DB /* OpenSSL-Universal-xcframeworks.sh */,
-				CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */,
-				1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */,
+				ADA00B1672D9F123228C99CCC4B99C84 /* VikycSDK-xcframeworks.sh */,
+				49AF076F51A7EE37A9D0A2B8F4D74921 /* VikycSDK.debug.xcconfig */,
+				577221A110F98EBFA51311CCE15A7E21 /* VikycSDK.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/OpenSSL-Universal";
+			path = "../Target Support Files/VikycSDK";
+			sourceTree = "<group>";
+		};
+		40FC833CA40DAB6B4D32CDA139B4EAAB /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				DB82846F9419922A505A6F466AF46506 /* Frameworks */,
+				14F2A3C7452FB043AA65053AC1E42106 /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		45522D817D86142B7C5938928A22ED27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181681F0E254F64BC7080F4FE16FABFF /* VikycSDK.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		48636A40C47E811EB868EF85A0F4B8CC /* Pods-VikycSDK_Example */ = {
@@ -191,57 +197,12 @@
 			path = "Target Support Files/Pods-VikycSDK_Example";
 			sourceTree = "<group>";
 		};
-		4E62780B97D6C66BACF776DF12651B8A /* OpenSSL-Universal */ = {
-			isa = PBXGroup;
-			children = (
-				2D8C8302E198D06CDF276F3269E7D929 /* Frameworks */,
-				316A4EE1495B6DA8B1957F93D95A92A7 /* Support Files */,
-			);
-			name = "OpenSSL-Universal";
-			path = "OpenSSL-Universal";
-			sourceTree = "<group>";
-		};
-		52747903601CF574C926CDE761786F28 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0D8048337172F431D2B321CEDE304A9C /* VikycSDK.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5C474BF04FA1A5958BBF73F255A1155E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6191AA3B8962AF9A54DB1CB6276886FB /* VikycSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6191AA3B8962AF9A54DB1CB6276886FB /* VikycSDK */ = {
-			isa = PBXGroup;
-			children = (
-				52747903601CF574C926CDE761786F28 /* Frameworks */,
-				1D3A5BC550E5E6A2DE160B69F19274AF /* Pod */,
-				119C457A618581BDAE44A814FFF9D9AE /* Support Files */,
-			);
-			name = VikycSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8479BAA8FF147F675C3CCF6774776249 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4E62780B97D6C66BACF776DF12651B8A /* OpenSSL-Universal */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		C4102D2771A867CDF18D0057FC4AFCFA /* Pods-VikycSDK_Tests */ = {
@@ -264,9 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5C474BF04FA1A5958BBF73F255A1155E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8479BAA8FF147F675C3CCF6774776249 /* Pods */,
+				1CE7AE16CFF79D1A6479AFF148DC9A84 /* Pods */,
 				FF71FEE8E956F772905E301961D20D63 /* Products */,
 				2273ABA2F1FCCFEC8FF779DD5442B449 /* Targets Support Files */,
 			);
@@ -278,6 +238,24 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB82846F9419922A505A6F466AF46506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8637824246C1D9EC29AB6B0BC2D94818 /* OpenSSL.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27C49EE973509F7A91B79923D5EFF70 /* VikycSDK */ = {
+			isa = PBXGroup;
+			children = (
+				45522D817D86142B7C5938928A22ED27 /* Frameworks */,
+				2F1E5B8844B1D5CB13C6B55BFAE9D258 /* Support Files */,
+			);
+			name = VikycSDK;
+			path = VikycSDK;
 			sourceTree = "<group>";
 		};
 		FF71FEE8E956F772905E301961D20D63 /* Products */ = {
@@ -323,7 +301,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A20FE47FE78729DFF716047ADBF024BE /* PBXTargetDependency */,
+				7E0C073060ACB0AE9800ABDBC622A7C9 /* PBXTargetDependency */,
 			);
 			name = "Pods-VikycSDK_Tests";
 			productName = Pods_VikycSDK_Tests;
@@ -342,8 +320,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				4160734BEE3EEA4E90245322B57ED8A2 /* PBXTargetDependency */,
-				056A73DB69352A6BA337B91F0A372A14 /* PBXTargetDependency */,
+				4328C62B8E8A8D1101C90833D8C358CF /* PBXTargetDependency */,
+				56ED5ED6C88E21ED5280443ACF465B21 /* PBXTargetDependency */,
 			);
 			name = "Pods-VikycSDK_Example";
 			productName = Pods_VikycSDK_Example;
@@ -398,14 +376,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5F1622288281225755A5A80A7001C56B /* [CP] Copy XCFrameworks */ = {
+		51B2FBCF5C26AE875535FC4B39D71F7B /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/VikycSDK/VikycSDK-xcframeworks.sh",
-				"${PODS_ROOT}/../../Frameworks/VikycSDK.xcframework",
+				"${PODS_ROOT}/VikycSDK/Frameworks/VikycSDK.xcframework",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputPaths = (
@@ -456,48 +434,33 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		056A73DB69352A6BA337B91F0A372A14 /* PBXTargetDependency */ = {
+		4328C62B8E8A8D1101C90833D8C358CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = C6EE0379CFF41BE26BE491C28720EF41 /* PBXContainerItemProxy */;
+		};
+		56ED5ED6C88E21ED5280443ACF465B21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VikycSDK;
 			target = 6A565A01EF20458C86BBC589CA5716C7 /* VikycSDK */;
-			targetProxy = 0839B83B7556BB2AEB4A92268E055484 /* PBXContainerItemProxy */;
+			targetProxy = 5C9622A1FC08AE0260840BB410E2A2B9 /* PBXContainerItemProxy */;
 		};
-		4160734BEE3EEA4E90245322B57ED8A2 /* PBXTargetDependency */ = {
+		614DAA039198D8E0C7517EF4DA7049FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "OpenSSL-Universal";
 			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
-			targetProxy = D32E33DA78F4BCA54EE61C18DCCDC19E /* PBXContainerItemProxy */;
+			targetProxy = 46AD09674A4749E656B3457FD24C3994 /* PBXContainerItemProxy */;
 		};
-		A20FE47FE78729DFF716047ADBF024BE /* PBXTargetDependency */ = {
+		7E0C073060ACB0AE9800ABDBC622A7C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VikycSDK_Example";
 			target = E8BD51520B5F31989EFA77C7E2FDE118 /* Pods-VikycSDK_Example */;
-			targetProxy = DEE99140120819A74E713EB24CA2602E /* PBXContainerItemProxy */;
-		};
-		B533D103DDF55D6B7A12206F11A5D7C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OpenSSL-Universal";
-			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
-			targetProxy = 182E4C83F9629C3770CE2C94737B0EB7 /* PBXContainerItemProxy */;
+			targetProxy = DA529B7D665FD0BF2CF3BA55F40C22A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B585D2C13BDF5D9657975FBAD6DA51B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7726007396BC3F8D894A2123338D25A5 /* VikycSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -696,22 +659,6 @@
 			};
 			name = Release;
 		};
-		7A8669280FD023F9967A9FD66DF2DA62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 155A3C4E8E3C1819E15F97FD520B1513 /* VikycSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		7E27618328451EDF1D327FB18C84F694 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEEC925EE297331D50D468DFF958485A /* Pods-VikycSDK_Example.debug.xcconfig */;
@@ -782,7 +729,7 @@
 		};
 		8B316432AE60080CB059A79312DDEB67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */;
+			baseConfigurationReference = 6CE94DFEBC71907CBC5B119BB76B4E06 /* OpenSSL-Universal.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -794,9 +741,25 @@
 			};
 			name = Debug;
 		};
+		D06C940EA3CDF371C4756B3F1D3B2826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577221A110F98EBFA51311CCE15A7E21 /* VikycSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D551795968AD2C24AD8F08002D53D45A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */;
+			baseConfigurationReference = FA91AE3A80FE6EDB03FC1454ADA9E29D /* OpenSSL-Universal.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -808,6 +771,21 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		F4C1A9712D8CCDE9882AE84AD86E805E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49AF076F51A7EE37A9D0A2B8F4D74921 /* VikycSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -851,8 +829,8 @@
 		95AE28C72C5041AD7AA61B04D5BBACE4 /* Build configuration list for PBXAggregateTarget "VikycSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B585D2C13BDF5D9657975FBAD6DA51B /* Debug */,
-				7A8669280FD023F9967A9FD66DF2DA62 /* Release */,
+				F4C1A9712D8CCDE9882AE84AD86E805E /* Debug */,
+				D06C940EA3CDF371C4756B3F1D3B2826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,23 +1,20 @@
 PODS:
-  - OpenSSL-Universal (1.1.180)
-  - VikycSDK (0.1.0):
+  - OpenSSL-Universal (1.1.1900)
+  - VikycSDK (0.0.1):
     - OpenSSL-Universal
 
 DEPENDENCIES:
-  - VikycSDK (from `../`)
+  - VikycSDK
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - OpenSSL-Universal
-
-EXTERNAL SOURCES:
-  VikycSDK:
-    :path: "../"
+    - VikycSDK
 
 SPEC CHECKSUMS:
-  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
-  VikycSDK: dc2bd9bc2df737f116a4cf1100db7f401c1c1907
+  OpenSSL-Universal: 84efb8a29841f2764ac5403e0c4119a28b713346
+  VikycSDK: 2857f614a51872019a1e5b822f14f0b3f52c5e0d
 
-PODFILE CHECKSUM: 48db7385acd14c05d3d1caeffa32095b4b9ce4f5
+PODFILE CHECKSUM: c6662035fe50b3950c756e7eb224a2caf29f40ee
 
 COCOAPODS: 1.11.3
